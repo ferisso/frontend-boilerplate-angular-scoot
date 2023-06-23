@@ -47,7 +47,14 @@ npm install
 npm run start
 ```
 
-4. Run the Cypress tests.
+4. ## MAKE SURE TO RUN PRISMA MIGRATION IN ORDER TO RUN THE BACKEND-APP
+```bash
+cd app-backend
+npm install
+npx prisma migrate run dev
+npm run dev
+```
+5. Run the Cypress tests.
 
 ```bash
 npm run test # run project tests under `cypress/integration`
