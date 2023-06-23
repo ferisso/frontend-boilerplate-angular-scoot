@@ -5,6 +5,7 @@ A backbone for your coding challenge.
 ## Contents
 
 - [Frontend app](app-frontend) - an Angular app. Extend with your code.
+- [Frontend app](app-backend) - an NodeJs with express and PrismaORM app.
 - [E2E test suites](cypress/integration) - a backend and a frontend Cypress test suites. Extend with your tests.
 - [Pipeline](.github/workflows/tests.yml) - a test Runner that executes the Cypress tests on push to a branch other than `master`/`main`.
 
