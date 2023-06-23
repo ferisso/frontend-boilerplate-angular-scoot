@@ -4,7 +4,7 @@
       My Todo List
     </h1>
     <div class="toolbar shadow">
-      <mat-form-field style="min-width: 232px;">
+      <mat-form-field style="min-width: 248px;">
         <mat-label>Search</mat-label>
         <input
           [(ngModel)]="search"
@@ -14,7 +14,7 @@
         >
         <mat-icon matSuffix>search</mat-icon>
       </mat-form-field>
-      <mat-form-field style="min-width: 232px;">
+      <mat-form-field style="min-width: 248px;">
         <mat-label>Priority</mat-label>
         <mat-select
           [(value)]="selectedPriority"
@@ -31,7 +31,7 @@
           </mat-option>
         </mat-select>
       </mat-form-field>
-      <mat-form-field style="min-width: 232px;">
+      <mat-form-field style="min-width: 248px;">
         <mat-label>Todos</mat-label>
         <mat-select
           [(value)]="selectedStatus"
@@ -48,6 +48,7 @@
       <button
         mat-flat-button
         color="primary"
+        style="margin-bottom: 44px;"
         (click)="toggleCreateOrEditTodo()"
       >
         New todo
